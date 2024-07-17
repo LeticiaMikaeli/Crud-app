@@ -1,0 +1,133 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: rgb(253, 154, 204)
+}
+
+button[type="submit"] {
+  background-color: #3bf579;
+  color: #fefffd; 
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 14px;
+  transition: background-color 0.3s ease;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+}
+
+button[type="submit"]:hover {
+  background-color: #42fdbfee; 
+}
+.botao-editar {
+  background-color: #f7adcf; 
+  color: #c50ba6; 
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.botao-editar:hover {
+  background-color: #f59ac5;
+}
+
+.botao-deletar {
+  background-color: #f3071f; 
+  color: #fff; 
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.botao-deletar:hover{
+  background-color: #f00a0a;
+}
+
+button[type="button"] {
+  background-color: #f3051c; 
+  color: #fff; 
+  border: 1px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 15px;
+  transition: background-color 0.3s ease;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+}
+
+button[type="button"]:hover {
+  background-color: #ff2f43d7; 
+  color: rgb(253, 120, 224);
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+  color: rgb(240, 66, 133);
+  background-color: #ffc0cb;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
